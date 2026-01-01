@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Gigs - UniWork</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg px-4">
+    <div class="container-fluid">
+        <!-- Logo + Brand -->
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+            <img src="C:\Users\aswin\Desktop\UniWork_Frontend\images\logo.png" alt="UniWork Logo" style="height:40px; margin-right:8px;">
+             UniWork
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <div class="row g-4">
+
+        <!-- PROFILE -->
+        <div class="col-md-4">
+            <div class="card-box text-center">
+                <img src="images/profile.jpg" class="profile-img" alt="Profile">
+                <h5 class="mt-2">Aswini <span class="badge bg-primary">NEW</span></h5>
+                <p>@aswini6_anthoni</p>
+
+                <button class="btn btn-info w-100">Preview Profile</button>
+
+                <hr>
+                <p>📍 UOK, Sri Lanka</p>
+                <p>⏱ Avg Response Time: 1 hour</p>
+            </div>
+        </div>
+
+        <!-- GIGS -->
+        <div class="col-md-8">
+            <h4 class="text-white">Active Gigs</h4>
+
+            <div class="row g-3 mt-2">
+
+                <div class="col-md-6">
+                    <div class="card gig-card">
+                        <img src="images/gig1.jpg" class="card-img-top" alt="Gig 1">
+                        <div class="card-body">
+                            <p>I will make perfect graphic design</p>
+                            <p class="price">STARTING AT $50</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card gig-card">
+                        <img src="images/gig2.jpg" class="card-img-top" alt="Gig 2">
+                        <div class="card-body">
+                            <p>I will develop a responsive website</p>
+                            <p class="price">STARTING AT $60</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CREATE NEW GIG -->
+                <div class="col-md-6">
+                    <div class="create-gig bg-white">
+                        <button class="plus-btn">+</button>
+                        <p class="mt-2">Create New Gig</p>
+
+                        <input class="form-control mb-2" placeholder="Gig Title">
+                        <select class="form-select mb-2">
+                            <option>Select Category</option>
+                        </select>
+                        <select class="form-select">
+                            <option>3 Days</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
